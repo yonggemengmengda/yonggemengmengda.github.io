@@ -422,6 +422,8 @@ div {
 /* for archive page ends*/
 /* middle*/
 @media print, screen and (max-width: 48em) {
+  .wather-box {
+    display: none; }
   .body_container {
     padding: 0 30px; }
   .content_container {
@@ -458,6 +460,8 @@ div {
 
 /* small*/
 @media print, screen and (max-width: 35.5em) {
+  .wather-box {
+    display: none; }
   .body_container {
     padding: 0 20px; }
   .content_container {
