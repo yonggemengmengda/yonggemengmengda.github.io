@@ -24,20 +24,22 @@ textarea,
 
 .wather-box {
   position: fixed;
-  right: 12px;
-  top: 47%;
+  right: 30px;
+  top: 40%;
   background-color: #fff;
   height: auto;
-  padding: 6px;
+  padding: 6px 6px 2px;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
-  box-shadow: 0 0 12px #cacaca inset; }
+  box-shadow: 0 0 12px #cacaca inset;
+  z-index: 10086; }
   .wather-box li {
     width: 44px;
     height: 44px;
     font-size: 36px;
     line-height: 44px;
+    list-style: none;
     box-shadow: 4px 4px 9px #d4d4d4;
     text-align: center;
     transition: .6s ease;
